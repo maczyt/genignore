@@ -7,7 +7,7 @@ var create = require('./lib/create');
 var join = require('path').join();
 
 program
-    .version('0.0.1')
+    .version('0.0.3')
     .usage('<options...>')
     .arguments('<options...>')
     .description('Generate gitignore file')
